@@ -9,27 +9,37 @@ body {
 }
 
 header {
-    background-color: lightblue;
-    height: 415px;
     padding-bottom: 3px;
 }
 
 nav {
     display: flex;
     justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding-top: 23px;
+    padding-bottom: 18px;
     height: 30px;
-    
+    background-color: rgb(56, 56, 221);
 }
 
 .navigation {
-    border: dotted black;
     width: 15%;
     height: 100%;
-    background-color: rgb(242, 205, 18);
     align-items: center;
     padding: 0px 5px 0px 5px;
+}
+
+.navigation a {
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.navigation button {
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 7px 10px 7px 10px;
+    color: rgb(87, 85, 85);
 }
 
 .navigation:nth-child(1) {
@@ -49,18 +59,18 @@ nav {
 }
 
 .container-intestazione {
-    background-color: rgb(11, 11, 123);
-    height: 360px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url("img/jumbo.png");
 }
 
 .gallery {
     border: dotted black;
     background-color: rgb(233, 118, 206);
-    height: 290px;
+    min-height: 290px;
     width: 60%;
 }
 
