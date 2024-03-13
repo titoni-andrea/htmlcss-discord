@@ -146,15 +146,16 @@ nav {
 .box-2 p {
     line-height: 24px;
     font-size: 16px;
+    color: #23272A;
 }
 
 .sezione2 {
-    background-color: lightgray;
+    background-color: #F6F6F6;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .sezione4 {
