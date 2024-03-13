@@ -203,53 +203,75 @@ nav {
     margin-bottom: 70px;
 }
 
+/* ------FOOTER------ */
+
 .sezione5 {
-    background-color: #222;
+    background-color: #222629;
     display: flex;
-    padding-top: 10px;
+    padding-top: 70px;
     padding-bottom: 30px;
-    border-bottom: solid 1px white;
+    border-bottom: solid 1px #728ADA;
     justify-content: center;
 }
 
 .foto1 {
-    background-color: rgb(216, 138, 138);
     width: 27%;
-    border: dotted black;
-    height: 350px;
+    min-height: 350px;
+    color: white;
 }
 
+.foto1 h2{
+    font-size: 28px;
+    color: #728ADA;
+}
+
+.italiano {
+    display: flex;
+    justify-content: start;
+    height: 20px;
+    margin-top: 20px;
+}
+ .italiano img {
+    margin-right: 5px;
+ }
+
 .foto2 {
-    background-color: rgb(28, 149, 121);
-    width: 13%;
-    border: dotted white;
-    height: 350px;
+    width: 15%;
+    min-height: 350px;
+}
+
+.titoletto {
+    color: #728ADA;
+}
+
+.testo {
+    color: white;
+    margin-top: 20px;
 }
 
 .note-legali {
-    background-color: #222;
+    background-color: #222629;
     display: flex;
     padding-top: 20px;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .info-inutili {
-    background-color: rgb(58, 198, 166);
     display: flex;
     justify-content: space-between;
     width: 80%;
-    height: 50px;
     align-items: center;
 }
 
 .logo-footer {
     padding: 5px;
-    background-color: rgb(229, 156, 156);
-    border: dotted black;
 }
 
 .bottone {
-    padding: 5px;
-    background-color: rgb(229, 156, 156);
-    border: dotted black;
+    background-color: #728ADA;
+    border: none;
+    border-radius: 40px;
+    padding: 7px 12px 7px 12px;
+    color: white;
 }
