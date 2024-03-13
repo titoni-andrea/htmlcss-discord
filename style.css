@@ -125,23 +125,27 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .box-1 {
     width: 53%;
-    background-color: rgb(48, 103, 212);
-    height: 340px;
-    border: dotted black;
 }
 
 .box-2 {
     width: 27%;
-    background-color: pink;
-    height: 340px;
-    border: dotted black;
-    
+    min-height: 340px;
+}
+
+.box-2 h1 {
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.box-2 p {
+    line-height: 24px;
+    font-size: 16px;
 }
 
 .sezione2 {
