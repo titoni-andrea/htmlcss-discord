@@ -121,7 +121,6 @@ nav {
 
 /* -------CONTENUTO------- */
 .sezione1 {
-    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,19 +158,49 @@ nav {
 }
 
 .sezione4 {
-    padding-top: 30px;
+    padding-top: 60px;
     padding-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgray;
+    background-color: #F6F6F6;
 }
 
 .box-singolo {
-    background-color: green;
-    height: 650px;
+    min-height: 650px;
     width: 80%;
-    border: dotted black;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.box-singolo h1 {
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.box-singolo p {
+    line-height: 24px;
+    font-size: 16px;
+    color: #23272A;
+}
+
+.box-singolo h2 {
+    margin-top: -10px;
+    font-size: 26px;
+}
+
+.box-singolo button {
+    background-color: #7086D6;
+    border: none;
+    border-radius: 40px;
+    padding: 16px 19px 16px 19px;
+    color: white;
+    font-size: 20px;
+    margin-top: 48px;
+    margin-bottom: 70px;
 }
 
 .sezione5 {
